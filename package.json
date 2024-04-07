@@ -1,0 +1,30 @@
+{
+  "name": "notes",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/solid-js": "^4.0.1",
+    "@astrojs/starlight": "^0.21.4",
+    "astro": "^4.3.5",
+    "mapbox-gl": "^3.2.0",
+    "sharp": "^0.32.5",
+    "solid-js": "^1.8.16",
+    "solid-map-gl": "^1.11.2",
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "latest",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-nested": "^6.0.1",
+    "tailwindcss": "^3.4.3"
+  }
+}

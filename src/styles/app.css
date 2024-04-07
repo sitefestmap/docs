@@ -1,0 +1,9 @@
+/* https://github.com/withastro/starlight/tree/main/packages/starlight/style */
+
+:where(html) {
+    --gap: 0.5em;
+}
+
+@tailwind utilities;
+
+/* https://github.com/withastro/starlight/blob/main/packages/starlight/style/props.css */
