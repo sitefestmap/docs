@@ -3,6 +3,8 @@ dist/
 # generated types
 .astro/
 
+README_PRIVATE.md
+
 _drafts*
 
 # dependencies
