@@ -2,8 +2,6 @@
 title: Vite Config
 ---
 
-# Vite Config
-
 **TODO** : remove html name extension. (This is handled automatically if using a JS Framework)
 
 ```js

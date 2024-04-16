@@ -6,6 +6,9 @@ import solidJs from "@astrojs/solid-js";
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
+    components: {
+      Head: "./src/components/starlight/Head.astro",
+    },
     title: 'Sitefest Map',
     customCss: [
       './src/styles/app.css',
